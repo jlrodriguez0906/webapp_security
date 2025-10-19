@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplicación Web Segura en Azure</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #f9f9f9; 
+      margin: 0; 
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    header {
+      background-color: #0078d7;
+      color: white;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    h2.section-title {
+      margin-top: 40px;
+      color: #0078d7;
+      font-size: 28px;
+    }
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      width: 260px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card i {
+      font-size: 40px;
+      color: #0078d7;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #0078d7;
+    }
+    .card p {
+      font-size: 16px;
+      color: #555;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔒 Aplicación Web Segura en Azure</h1>
+    <p>Desarrollada y desplegada por <span style="font-weight:bold; color:#ff4500;">José Luis Rodríguez</span></p>
+    <p>Protección, rendimiento y confianza con <strong>Azure App Service</strong> 🛡️</p>
+  </header>
+
+  <h2 class="section-title">Pilares de Seguridad en Aplicaciones Web Azure</h2>
+
+  <section class="cards-container">
+    <div class="card">
+      <i class="fas fa-lock"></i>
+      <h3>Autenticación y Autorización</h3>
+      <p>Azure App Service permite integrar fácilmente autenticación con Azure AD, Google, Facebook o GitHub para proteger el acceso.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-shield-virus"></i>
+      <h3>Protección contra Amenazas</h3>
+      <p>Azure Defender for App Service detecta ataques en tiempo real y aplica medidas preventivas automáticas.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-network-wired"></i>
+      <h3>Conexiones Seguras</h3>
+      <p>Todo el tráfico se cifra mediante HTTPS y certificados SSL gestionados automáticamente por Azure.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-database"></i>
+      <h3>Gestión Segura de Datos</h3>
+      <p>Azure SQL y Azure Storage protegen los datos con cifrado en reposo y en tránsito, además de respaldos automáticos.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-user-shield"></i>
+      <h3>Control de Accesos</h3>
+      <p>El modelo de identidad basada en roles (RBAC) de Azure limita el acceso solo a usuarios o servicios autorizados.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-chart-line"></i>
+      <h3>Monitoreo y Auditoría</h3>
+      <p>Con Azure Monitor y Application Insights puedes supervisar métricas, registrar eventos y detectar comportamientos sospechosos.</p>
+    </div>
+  </section>
+
+  <footer>
+    🌐 Aprende más sobre cómo proteger tu <strong>WebApp en Azure</strong> en la 
+    <a href="https://learn.microsoft.com/es-es/azure/app-service/" target="_blank" style="color:#0078d7; text-decoration:none; font-weight:bold;">documentación oficial de Microsoft</a>.
+  </footer>
+
+</body>
+</html>
